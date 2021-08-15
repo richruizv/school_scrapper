@@ -1,0 +1,8 @@
+#esta regex hace que encuentre hasta la útlima ocurrencia
+(NOMBRE\sDEL\sPROGRAMA:)(.+?)(:)   
+
+#this regex is to find text from javascript console text
+\d{1,3}:\s#text\s
+
+#this regex is to find text from javascript console href
+\d{1,3}:\shref=
